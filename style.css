@@ -1,0 +1,48 @@
+:root{
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+img{
+    border-radius: 4px;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.text {
+    margin: 24px 0px;
+    display: flex;
+    gap: 24px; /*Расстояние между блоками flex */
+    flex-direction: column;
+}
